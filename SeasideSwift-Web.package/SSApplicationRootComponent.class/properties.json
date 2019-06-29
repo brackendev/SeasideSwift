@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "brackendev 6/11/2019 22:12",
+	"super" : "WAComponent",
+	"category" : "SeasideSwift-Web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"output",
+		"input",
+		"fileName"
+	],
+	"name" : "SSApplicationRootComponent",
+	"type" : "normal"
+}
