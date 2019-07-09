@@ -5,7 +5,7 @@ SeasideSwift
 
 * [Pharo 7.0](http://pharo.org/) reference platform.
 * Requires macOS 10.14.5 (or later) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit).
-    * SeasideSwift should run on Windows with little to no modifications. See [Running Pharo in Windows Subsystem for Linux (WSL)](https://fuhrmanator.github.io/2019/02/27/Pharo-in-WSL.html) and [Swift for Windows](http://swiftforwindows.github.io).
+    * SeasideSwift should run on Windows with little modifications. Additionally, see [Running Pharo in Windows Subsystem for Linux (WSL)](https://fuhrmanator.github.io/2019/02/27/Pharo-in-WSL.html) and [Swift for Windows](http://swiftforwindows.github.io).
 
 ## Installation
 
