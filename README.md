@@ -57,7 +57,6 @@ SeasideSwift stop.
 * [Astares](https://github.com/astares) for [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4), a Bootstrap 4 wrapper for Seaside for Pharo 7.
 * The [Seaside team](https://github.com/orgs/SeasideSt/people) and [contributors](https://github.com/SeasideSt/Seaside/graphs/contributors) for [Seaside](https://github.com/SeasideSt/Seaside), the framework to develop sophisticated web applications that let you build highly interactive web applications quickly, reusably and maintainably.
 * The [Pharo team](https://github.com/orgs/pharo-project/people) and [contributors](https://github.com/pharo-project/pharo/graphs/contributors) for [Pharo](http://pharo.org/), the pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
-* [Eliot Miranda](http://www.mirandabanda.org/cogblog/microbio/), the [OpenSmalltalk team](https://github.com/orgs/OpenSmalltalk/people), and [contributors](https://github.com/OpenSmalltalk/opensmalltalk-vm/graphs/contributors) for [OpenSmalltalk](https://github.com/OpenSmalltalk/opensmalltalk-vm) ([Cog](http://www.mirandabanda.org/cogblog/about-cog/)), the cross-platform virtual machine for Squeak, Pharo, Cuis, and Newspeak.
 
 ## Author
 
