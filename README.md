@@ -51,13 +51,6 @@ SeasideSwift stop.
 
 ![Screenshot](screenshot2.png)
 
-## Acknowledgements
-
-* The [Seaside team](https://github.com/orgs/SeasideSt/people) and [contributors](https://github.com/SeasideSt/Seaside/graphs/contributors) for [Seaside](https://github.com/SeasideSt/Seaside), the framework to develop sophisticated web applications that let you build highly interactive web applications quickly, reusably and maintainably.
-* [Astares](https://github.com/astares) for [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4), a Bootstrap 4 wrapper for Seaside for Pharo 7.
-* [Mariano Martinez Peck](https://github.com/marianopeck) and [contributors](https://github.com/pharo-contributions/OSSubprocess/graphs/contributors) for [OSSubprocess](https://github.com/pharo-contributions/OSSubprocess).
-* The [Pharo team](https://github.com/orgs/pharo-project/people) and [contributors](https://github.com/pharo-project/pharo/graphs/contributors) for [Pharo](http://pharo.org/), the pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
-
 ## Author
 
 [brackendev](https://www.github.com/brackendev)
