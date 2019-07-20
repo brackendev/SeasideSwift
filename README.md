@@ -3,11 +3,11 @@ SeasideSwift
 
 **A cross-platform Swift code runner served by [Seaside](https://github.com/SeasideSt/Seaside) on [Pharo](http://pharo.org/).**
 
-Similar implementations are used at [Repl.it](https://repl.it/languages/swift), [SwiftPlayground.run](http://online.swiftplayground.run), [iSwift](https://iswift.org/playground), etc.
+Similar implementations are used at [Repl.it](https://repl.it/languages/swift), [SwiftPlayground.run](http://online.swiftplayground.run), and [iSwift](https://iswift.org/playground).
 
 * [Pharo 7.0](http://pharo.org/) reference platform.
 * Requires macOS 10.14.5 (or later) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit).
-    * SeasideSwift should run on Windows with little modifications. See [Running Pharo in Windows Subsystem for Linux (WSL)](https://fuhrmanator.github.io/2019/02/27/Pharo-in-WSL.html) and [Swift for Windows](http://swiftforwindows.github.io).
+    * SeasideSwift should run on Windows with little modifications. The biggest concern is getting Swift compilation running. See [Running Pharo in Windows Subsystem for Linux (WSL)](https://fuhrmanator.github.io/2019/02/27/Pharo-in-WSL.html) and [Swift for Windows](http://swiftforwindows.github.io).
 
 ## Installation
 
