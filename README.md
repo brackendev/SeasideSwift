@@ -24,7 +24,6 @@ SeasideSwift
 
 ## Usage
 
-
 In a Pharo playground, evaluate:
 
 ```smalltalk
@@ -50,6 +49,13 @@ SeasideSwift stop.
 #### GNU/Linux
 
 ![Screenshot](screenshot2.png)
+
+## Acknowledgements
+
+This project makes use of the following third-party libraries:
+
+* [OSSubprocess](https://github.com/pharo-contributions/OSSubprocess)
+* [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4)
 
 ## Author
 
