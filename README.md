@@ -20,7 +20,10 @@ Similar implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftP
     ```smalltalk
     Metacello new 
       repository: 'github://brackendev/SeasideSwift';
-      baseline: 'SeasideSwift';
+      onConflict: [ :ex | ex useIncoming ];
+      onUpgrade: [ :ex | ex useIncoming ];
+      onDowngrade: [ :ex | ex useLoaded ];
+      ignoreImage;
       load.
     ```
 
