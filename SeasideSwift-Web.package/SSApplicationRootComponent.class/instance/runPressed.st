@@ -5,6 +5,7 @@ runPressed
 	swift := working / 'swift'.
 	swift createDirectory.
 	file := swift / fileName.
+	file ensureDelete.
 	fullInput := input , String crlf.
 	file writeStreamDo: [ :stream | stream nextPutAll: fullInput ].
 	fullName := file fullName.
@@ -14,6 +15,7 @@ runPressed
 		redirectStdout;
 		redirectStderr;
 		runAndWaitOnExitDo: [ :process :outString :errString | 
-			process isSuccess
-				ifTrue: [ output := outString ]
-				ifFalse: [ errString inspect ] ]
+			output := process isSuccess
+				ifTrue: [ outString ]
+				ifFalse: [ errString ]
+			]

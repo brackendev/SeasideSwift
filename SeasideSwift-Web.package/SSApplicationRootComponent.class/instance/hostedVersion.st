@@ -1,6 +1,8 @@
 utilities
 hostedVersion
+| seasideVersion |
+seasideVersion := GRPlatform current seasideVersion.
 	^ SystemVersion current imageVersionString , ', Seaside '
-		, GRPlatform current seasideVersion major asString , '.'
-		, GRPlatform current seasideVersion minor asString , '.'
-		, GRPlatform current seasideVersion revision asString
+		, seasideVersion major asString , '.'
+		, seasideVersion minor asString , '.'
+		, seasideVersion revision asString

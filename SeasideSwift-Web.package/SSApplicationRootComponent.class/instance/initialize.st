@@ -1,6 +1,6 @@
 initializing
 initialize
 	super initialize.
-	input := self swiftVersionComment , String crlf, 'import Foundation' , String crlf
-		, String crlf , 'print("Hello World")'.
-	fileName := DateAndTime now asUnixTime asString , '.swift'
+	input := self header , String crlf , 'import Foundation'
+		, String crlf , String crlf , 'print("Hello World")'.
+	fileName := (Random new next asString copyReplaceAll: '.' with: '') , '.swift'
