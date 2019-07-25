@@ -1,13 +1,17 @@
 utilities
 runPressed
-	| working swift file fullInput fullName |
+	| working swift file fullName |
 	working := FileSystem disk workingDirectory.
 	swift := working / 'swift'.
 	swift createDirectory.
 	file := swift / fileName.
 	file ensureDelete.
-	fullInput := input , String crlf.
-	file writeStreamDo: [ :stream | stream nextPutAll: fullInput ].
+	file
+		writeStreamDo: [ :stream | 
+			stream
+				nextPutAll: input;
+				nextPutAll: String crlf
+			].
 	fullName := file fullName.
 	OSSUnixSubprocess new
 		command: 'swift';
