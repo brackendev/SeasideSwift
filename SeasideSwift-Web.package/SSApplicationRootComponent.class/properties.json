@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"output",
-		"input",
-		"fileName"
+		"input"
 	],
 	"name" : "SSApplicationRootComponent",
 	"type" : "normal"

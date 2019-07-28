@@ -1,6 +1,7 @@
 utilities
 runPressed
-	| working swift file fullName |
+	| fileName working swift file fullName |
+	fileName := (Random new next asString copyReplaceAll: '.' with: '') , '.swift'.
 	working := FileSystem disk workingDirectory.
 	swift := working / 'swift'.
 	swift createDirectory.
