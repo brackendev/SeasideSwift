@@ -74,7 +74,7 @@ This project makes use of the following third-party libraries:
 * [OSSubprocess](https://github.com/pharo-contributions/OSSubprocess)
 * [Seaside](https://github.com/SeasideSt/Seaside)
 * [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4)
-* [Teaport](https://github.com/zeroflag/Teapot)
+* [Teapot](https://github.com/zeroflag/Teapot)
 
 ## Author
 
