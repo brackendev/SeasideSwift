@@ -35,7 +35,7 @@ SeasideSwift shared start.
 ```
 
 ```smalltalk
-WebBrowser openOn: 'http://localhost:8080/SeasideSwift/'.
+WebBrowser openOn: 'http://127.0.0.1:8080/SeasideSwift/'.
 ```
 
 ```smalltalk
