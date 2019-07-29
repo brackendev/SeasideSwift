@@ -31,7 +31,7 @@ Similar implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftP
 
 ```smalltalk
 "Start the service"
-SeasideSwift start.
+SeasideSwift shared start.
 ```
 
 ```smalltalk
@@ -40,8 +40,22 @@ WebBrowser openOn: 'http://localhost:8080/SeasideSwift/'.
 
 ```smalltalk
 "Stop the service"
-SeasideSwift stop.
+SeasideSwift shared stop.
 ```
+
+## SaaS
+
+Additionally, SeasideSwift includes "*Swift* as a Service" using [Teapot](https://github.com/zeroflag/Teapot).
+
+For example:
+
+```bash
+curl -X "POST" "http://127.0.0.1:8081/swift" \
+-H 'Content-Type: text/plain; charset=utf-8' \
+-d "print(\"Hello, World\")"
+```
+
+Returns: `Hello, World!`
 
 ## Screenshots
 
@@ -58,7 +72,9 @@ SeasideSwift stop.
 This project makes use of the following third-party libraries:
 
 * [OSSubprocess](https://github.com/pharo-contributions/OSSubprocess)
+* [Seaside](https://github.com/SeasideSt/Seaside)
 * [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4)
+* [Teaport](https://github.com/zeroflag/Teapot)
 
 ## Author
 
