@@ -14,8 +14,7 @@ Similar implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftP
 1. Install and setup the Swift tools for your environment:
     * **macOS 10.14.5:** Install the [Command Line Tools (macOS 10.14) for Xcode 10.2.1](https://developer.apple.com/download/more/?=command%20line%20tools) (or later).
     * **GNU/Linux:** [Install Swift](https://www.swift.org/getting-started/#installing-swift) from [swift.org](https://www.swift.org/).
-2. Install and setup [Pharo](http://pharo.org/).
-3. In a Pharo playground, evaluate:
+2. In a Playground, evaluate:
 
     ```smalltalk
     Metacello new 
@@ -30,7 +29,7 @@ Similar implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftP
 
 ## Usage
 
-In a Pharo playground, evaluate:
+In a Playground, evaluate:
 
 ```smalltalk
 "Start the service"
