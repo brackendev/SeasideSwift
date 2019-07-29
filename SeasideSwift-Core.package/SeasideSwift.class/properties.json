@@ -2,10 +2,14 @@
 	"commentStamp" : "brackendev 6/7/2019 11:15",
 	"super" : "Object",
 	"category" : "SeasideSwift-Core",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"shared"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"teapot"
+	],
 	"name" : "SeasideSwift",
 	"type" : "normal"
 }
