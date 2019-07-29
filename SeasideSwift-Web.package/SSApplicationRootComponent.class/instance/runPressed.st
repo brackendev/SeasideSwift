@@ -20,6 +20,7 @@ runPressed
 		redirectStdout;
 		redirectStderr;
 		runAndWaitOnExitDo: [ :process :outString :errString | 
+			file ensureDelete.
 			output := process isSuccess
 				ifTrue: [ outString ]
 				ifFalse: [ errString ]
