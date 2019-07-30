@@ -49,7 +49,7 @@ SeasideSwift shared stop.
 
 Additionally, SeasideSwift includes "*Swift* as a Service" using [Teapot](https://github.com/zeroflag/Teapot). 
 
-For example, the following shell command returns `Hello, World!`.
+For example, the following curl command returns `Hello, World!`.
 
 ```bash
 curl -X "POST" "http://127.0.0.1:8081/swift" \
