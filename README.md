@@ -54,7 +54,7 @@ For example, the following curl command returns `Hello, World!`.
 ```bash
 curl -X "POST" "http://127.0.0.1:8081/swift" \
 -H 'Content-Type: text/plain; charset=utf-8' \
--d "print(\"Hello, World\")"
+-d "print(\"Hello, World!\")"
 ```
 
 ## Screenshots
