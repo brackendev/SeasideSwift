@@ -45,11 +45,7 @@ WebBrowser openOn: 'http://127.0.0.1:8080/SeasideSwift/'.
 SeasideSwift shared stop.
 ```
 
-## SaaS
-
-Additionally, SeasideSwift includes "*Swift* as a Service" using [Teapot](https://github.com/zeroflag/Teapot). 
-
-For example, the following curl command returns `Hello, World!`.
+Additionally, HTTP POST requests are supported. For example, the following curl command returns `Hello, World!`.
 
 ```bash
 curl -X "POST" "http://127.0.0.1:8081/swift" \
@@ -75,6 +71,7 @@ This project makes use of the following third-party libraries:
 * [Seaside](https://github.com/SeasideSt/Seaside)
 * [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4)
 * [Teapot](https://github.com/zeroflag/Teapot)
+* [Zinc HTTP Components](https://github.com/svenvc/zinc)
 
 ## Author
 
