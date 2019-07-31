@@ -8,5 +8,11 @@ initialize
 			(#bindAddress -> #[127 0 0 1])}.
 	teapot
 		POST:
-			'/swift' ->
-				[ :req | SeasideSwift runSwiftCode: req entity string ]
+			'/swift'
+				->
+					[ :req | 
+					| bytes |
+					bytes := ByteArray
+						streamContents: [ :stream | req entity writeOn: stream ].
+					SeasideSwift runSwiftCode: bytes asString
+					]
