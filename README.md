@@ -45,7 +45,7 @@ WebBrowser openOn: 'http://127.0.0.1:8080/SeasideSwift/'.
 SeasideSwift shared stop.
 ```
 
-Additionally, HTTP POST requests are supported. For example, the following curl command returns `Hello, World!`.
+Additionally, HTTP POST requests are supported with [Teapot](https://github.com/zeroflag/Teapot). For example, the following curl command returns `Hello, World!`.
 
 ```bash
 curl -X "POST" "http://127.0.0.1:8081/swift" \
