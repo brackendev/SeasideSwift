@@ -47,15 +47,15 @@ SeasideSwift shared stop.
 
 ## SaaS
 
-Additionally, SeasideSwift includes "*Swift* as a Service" using [Teapot](https://github.com/zeroflag/Teapot), for example:
+Additionally, SeasideSwift includes "*Swift* as a Service" using [Teapot](https://github.com/zeroflag/Teapot). 
+
+For example, the following curl command returns `Hello, World!`.
 
 ```bash
 curl -X "POST" "http://127.0.0.1:8081/swift" \
 -H 'Content-Type: text/plain; charset=utf-8' \
--d "print(\"Hello, World\")"
+-d "print(\"Hello, World!\")"
 ```
-
-Returns: `Hello, World!`
 
 ## Screenshots
 
