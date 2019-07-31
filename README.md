@@ -12,7 +12,7 @@ Similar implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftP
 ## Installation
 
 1. Install and setup the Swift tools for your environment:
-    * **macOS 10.14.5:** Install the [Command Line Tools (macOS 10.14) for Xcode 10.2.1](https://developer.apple.com/download/more/?=command%20line%20tools) (or later).
+    * **macOS 10.14:** Install the [Command Line Tools (macOS 10.14) for Xcode 10.2.1](https://developer.apple.com/download/more/?=command%20line%20tools) (or later).
     * **GNU/Linux:** [Install Swift](https://www.swift.org/getting-started/#installing-swift) from [swift.org](https://www.swift.org/).
 2. In a Playground, evaluate:
 
