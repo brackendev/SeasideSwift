@@ -9,6 +9,9 @@ baseline: spec
 				package: 'SeasideSwift-Core'
 				with: [ spec requires: #('OSSubprocess' 'Teapot') ].
 			spec
+				package: 'SeasideSwift-Core-Tests'
+				with: [ spec requires: #('SeasideSwift-Core') ].
+			spec
 				package: 'SeasideSwift-Web'
 				with: [ spec requires: #('SeasideSwift-Core' 'Bootstrap4') ]
 			]

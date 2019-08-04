@@ -22,6 +22,6 @@ runSwiftCode: aString
 			[ :process :outString :errString | 
 			file ensureDelete.
 			process isSuccess
-				ifTrue: [ ^ outString ]
+				ifTrue: [ ^ outString withoutTrailingNewlines ]
 				ifFalse: [ ^ errString ]
 			]
