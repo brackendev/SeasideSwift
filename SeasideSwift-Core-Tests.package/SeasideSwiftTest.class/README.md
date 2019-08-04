@@ -1,0 +1,1 @@
+A SeasideSwiftTest is a test class for testing the behavior of SeasideSwift
