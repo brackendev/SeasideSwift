@@ -1,18 +1,18 @@
 SeasideSwift
 ============
 
-**A cross-platform Swift code runner served by [Seaside](https://github.com/SeasideSt/Seaside) on [Pharo](http://pharo.org/).**
+**A cross-platform Swift code runner served by [Seaside](https://github.com/SeasideSt/Seaside) on [Pharo](https://www.pharo.org/).**
 
 Similar implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftPlayground.run](http://onlineswiftplayground.run).
 
-* [Pharo 7.0](http://pharo.org/) reference platform.
+* [Pharo 7.0](https://www.pharo.org/) reference platform.
 * Requires macOS 10.14.5 (or later) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit).
-    * SeasideSwift should run on Windows with little modifications. The biggest concern is getting Swift compilation running. See [Running Pharo in Windows Subsystem for Linux (WSL)](https://fuhrmanator.github.io/2019/02/27/Pharo-in-WSL.html) and [Swift for Windows](http://swiftforwindows.github.io).
+    * SeasideSwift should run on Windows with little to no modifications but has not been tested yet. See [Running Pharo in Windows Subsystem for Linux (WSL)](https://fuhrmanator.github.io/2019/02/27/Pharo-in-WSL.html) and [Swift for Windows](https://swiftforwindows.github.io).
 
 ## Installation
 
 1. Install and setup the Swift tools for your environment:
-    * **macOS 10.14.5:** Install the [Command Line Tools (macOS 10.14) for Xcode 10.2.1](https://developer.apple.com/download/more/?=command%20line%20tools) (or later).
+    * **macOS:** Install the [Command Line Tools (macOS 10.14) for Xcode 10.2.1](https://developer.apple.com/download/more/?=command%20line%20tools) (or later).
     * **GNU/Linux:** [Install Swift](https://www.swift.org/getting-started/#installing-swift) from [swift.org](https://www.swift.org/).
 2. In a Playground, evaluate:
 
