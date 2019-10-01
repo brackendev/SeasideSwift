@@ -1,6 +1,12 @@
 baselines
 setUpDependencies: spec
 	spec
+		baseline: 'SwiftPlayground'
+		with:
+			[ spec
+				repository: 'github://brackendev/SwiftPlayground-Pharo:master/src'
+			].
+	spec
 		baseline: 'Bootstrap4'
 		with:
 			[ spec
@@ -15,9 +21,3 @@ setUpDependencies: spec
 				loads: #('Deployment')
 			];
 		import: 'Teapot'.
-	spec
-		baseline: 'OSSubprocess'
-		with:
-			[ spec
-				repository: 'github://pharo-contributions/OSSubprocess:master/repository'
-			]

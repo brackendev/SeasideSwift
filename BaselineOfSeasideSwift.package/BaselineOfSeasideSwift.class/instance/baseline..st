@@ -7,7 +7,7 @@ baseline: spec
 			[ self setUpDependencies: spec.
 			spec
 				package: 'SeasideSwift-Core'
-				with: [ spec requires: #('OSSubprocess' 'Teapot') ].
+				with: [ spec requires: #('SwiftPlayground' 'Teapot') ].
 			spec
 				package: 'SeasideSwift-Core-Tests'
 				with: [ spec requires: #('SeasideSwift-Core') ].
