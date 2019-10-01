@@ -67,9 +67,9 @@ curl -X "POST" "http://127.0.0.1:8081/swift" \
 
 This project makes use of the following third-party libraries:
 
-* [OSSubprocess](https://github.com/pharo-contributions/OSSubprocess)
 * [Seaside](https://github.com/SeasideSt/Seaside)
 * [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4)
+* [SwiftPlayground-Pharo](https://github.com/brackendev/SwiftPlayground-Pharo) (includes [OSSubprocess](https://github.com/pharo-contributions/OSSubprocess))
 * [Teapot](https://github.com/zeroflag/Teapot)
 * [Zinc HTTP Components](https://github.com/svenvc/zinc)
 
