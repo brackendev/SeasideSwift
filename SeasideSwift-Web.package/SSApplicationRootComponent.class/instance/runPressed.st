@@ -1,4 +1,3 @@
 utilities
 runPressed
-	output := SeasideSwift
-		runSwiftCode: input
+	output := input runSwift

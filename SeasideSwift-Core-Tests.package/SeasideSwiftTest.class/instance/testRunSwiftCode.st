@@ -1,4 +1,4 @@
 tests
 testRunSwiftCode
-	self assert: (SeasideSwift runSwiftCode: 'print("Hello, World!")') equals: 'Hello, World!'.
-	self assert: (SeasideSwift runSwiftCode: 'print(1+1)') equals: '2'.
+	self assert: 'print("Hello, World!")' runSwift equals: 'Hello, World!'.
+	self assert: 'print(1+1)' runSwift equals: '2'.

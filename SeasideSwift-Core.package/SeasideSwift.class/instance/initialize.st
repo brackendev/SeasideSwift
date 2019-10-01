@@ -14,5 +14,5 @@ initialize
 					| bytes |
 					bytes := ByteArray
 						streamContents: [ :stream | req entity writeOn: stream ].
-					SeasideSwift runSwiftCode: bytes asString
+					bytes asString runSwift
 					]
