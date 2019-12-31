@@ -7,7 +7,6 @@ Similar implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftP
 
 * [Pharo 7.0](https://www.pharo.org/) reference platform.
 * Requires macOS 10.14.5 (or later) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit).
-    * SeasideSwift should run on Windows with little to no modifications but has not been tested yet. See [Running Pharo in Windows Subsystem for Linux (WSL)](https://fuhrmanator.github.io/2019/02/27/Pharo-in-WSL.html) and [Swift for Windows](https://swiftforwindows.github.io).
 
 ## Installation
 
@@ -69,7 +68,7 @@ This project makes use of the following third-party libraries:
 
 * [Seaside](https://github.com/SeasideSt/Seaside)
 * [Seaside-Bootstrap4](https://github.com/astares/Seaside-Bootstrap4)
-* [SwiftPlayground-Pharo](https://github.com/brackendev/SwiftPlayground-Pharo) (includes [OSSubprocess](https://github.com/pharo-contributions/OSSubprocess))
+* [SwiftPlayground-Pharo](https://github.com/brackendev/SwiftPlayground-Pharo)
 * [Teapot](https://github.com/zeroflag/Teapot)
 * [Zinc HTTP Components](https://github.com/svenvc/zinc)
 
