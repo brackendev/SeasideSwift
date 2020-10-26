@@ -13,7 +13,7 @@ Similar commercial implementations are used at [Repl.it](https://repl.it) and [O
 1. Install and setup the Swift tools for your environment:
     * **macOS:** Install the [Command Line Tools for Xcode](https://developer.apple.com/download/more/?=command%20line%20tools).
     * **GNU/Linux:** [Install Swift](https://www.swift.org/getting-started/#installing-swift) from [swift.org](https://www.swift.org/).
-2. In a Playground, evaluate:
+2. In a Playground, _Do It_:
 
     ```smalltalk
     Metacello new 
@@ -28,7 +28,7 @@ Similar commercial implementations are used at [Repl.it](https://repl.it) and [O
 
 ## Usage
 
-In a Playground, evaluate:
+In a Playground, _Do It_:
 
 ```smalltalk
 "Start the service"
@@ -79,3 +79,13 @@ This project makes use of the following third-party libraries:
 ## License
 
 SeasideSwift is released under the MIT license. See the LICENSE file for more info.
+
+- - -
+
+## Useful Links
+
+* [/r/smalltalk](https://www.reddit.com/r/smalltalk/) [Reddit]
+* [@pharoproject](https://twitter.com/pharoproject) [Twitter]
+* [forum.world.st](http://forum.world.st/)
+* [pharo.org](http://www.pharo.org/)
+
