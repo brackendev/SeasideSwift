@@ -56,5 +56,5 @@ renderContentOn: html
 								align: 'right';
 								with: [ html heading
 										level: 6;
-										with: 'Copyright (c) 2019 brackendev. All rights reserved.' ] ] ].
+										with: 'Copyright (c) 2019-2020 brackendev. All rights reserved.' ] ] ].
 			html break ]

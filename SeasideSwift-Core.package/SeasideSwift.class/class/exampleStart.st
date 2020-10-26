@@ -1,4 +1,4 @@
 examples
 exampleStart
-<sampleInstance>
-SeasideSwift shared start
+	<sampleInstance>
+	self shared start

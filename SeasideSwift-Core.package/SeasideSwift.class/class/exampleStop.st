@@ -1,4 +1,4 @@
 examples
 exampleStop
 	<sampleInstance>
-	SeasideSwift shared stop
+	self shared stop
