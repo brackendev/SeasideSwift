@@ -1,4 +1,4 @@
-initializing
+initialization
 initialize
 	super initialize.
 	input := self header , String crlf , 'import Foundation'
