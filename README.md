@@ -84,8 +84,7 @@ SeasideSwift is released under the MIT license. See the LICENSE file for more in
 
 ## Useful Links
 
-* [/r/smalltalk](https://www.reddit.com/r/smalltalk/) [Reddit]
 * [@pharoproject](https://twitter.com/pharoproject) [Twitter]
-* [forum.world.st](http://forum.world.st/)
-* [pharo.org](http://www.pharo.org/)
-
+* [pharo.org](https://www.pharo.org/)
+* [@swiftlang](https://twitter.com/SwiftLang) [Twitter]
+* [swift.org](https://www.swift.org/)
