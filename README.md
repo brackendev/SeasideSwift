@@ -6,7 +6,9 @@ SeasideSwift
 Similar commercial implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftPlayground.run](http://onlineswiftplayground.run).
 
 * [Pharo 8.0](https://www.pharo.org/) reference platform.
-* Requires macOS (tested with 10.15.4) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit) ***and*** the Swift tools (see _Installation_).
+* Requires:
+   * macOS (tested with 10.15.4) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit).
+   * Swift tools (see _Installation_ below).
 
 ## Installation
 
