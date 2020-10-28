@@ -64,6 +64,10 @@ curl -X "POST" "http://127.0.0.1:8081/swift" \
 
 ![Screenshot](screenshot2.png)
 
+## TODO
+
+- [ ] Support Pharo 9 (when stable)
+
 ## Acknowledgements
 
 This project makes use of the following third-party libraries:
