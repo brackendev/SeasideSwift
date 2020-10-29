@@ -19,7 +19,7 @@ Similar commercial implementations are used at [Repl.it](https://repl.it) and [O
 
     ```smalltalk
     Metacello new 
-      repository: 'github://brackendev/SeasideSwift/src';
+      repository: 'github://brackendev/SeasideSwift:v1.0.0/src';
       baseline: 'SeasideSwift';
       onConflict: [ :ex | ex useIncoming ];
       onUpgrade: [ :ex | ex useIncoming ];
