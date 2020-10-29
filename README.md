@@ -19,7 +19,7 @@ Similar commercial implementations are used at [Repl.it](https://repl.it) and [O
 
     ```smalltalk
     Metacello new 
-      repository: 'github://brackendev/SeasideSwift';
+      repository: 'github://brackendev/SeasideSwift/src';
       baseline: 'SeasideSwift';
       onConflict: [ :ex | ex useIncoming ];
       onUpgrade: [ :ex | ex useIncoming ];
@@ -58,11 +58,11 @@ curl -X "POST" "http://127.0.0.1:8081/swift" \
 
 #### macOS
 
-![Screenshot](screenshot1.png)
+![Screenshot](images/screenshot1.png)
 
 #### GNU/Linux
 
-![Screenshot](screenshot2.png)
+![Screenshot](images/screenshot2.png)
 
 ## TODO
 
