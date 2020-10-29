@@ -1,3 +1,0 @@
-accessing
-teapot
-	^ teapot
