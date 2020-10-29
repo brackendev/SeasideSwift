@@ -33,7 +33,7 @@ BaselineOfSeasideSwift >> setUpDependencies: spec [
 		baseline: 'SwiftPlayground'
 		with:
 			[ spec
-				repository: 'github://brackendev/SwiftPlayground-Pharo:master/src'
+				repository: 'github://brackendev/SwiftPlayground-Pharo:v1.0.0/src'
 			].
 	spec
 		baseline: 'Bootstrap4'
