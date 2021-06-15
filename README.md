@@ -3,7 +3,7 @@ SeasideSwift
 
 **A cross-platform Swift web code runner served by [Seaside](https://github.com/SeasideSt/Seaside) on [Pharo](https://www.pharo.org/).**
 
-Similar commercial implementations are used at [Repl.it](https://repl.it) and [OnlineSwiftPlayground.run](http://onlineswiftplayground.run).
+Similar commercial implementations are used at [Replit](https://repl.it) and [OnlineSwiftPlayground.run](http://onlineswiftplayground.run).
 
 * [Pharo 8.0](https://www.pharo.org/) reference platform.
 * Requires:
