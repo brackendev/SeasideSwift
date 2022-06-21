@@ -10,6 +10,20 @@ Similar commercial implementations are used at [Replit](https://repl.it) and [On
    * macOS (tested with 10.15.4) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit).
    * Swift tools (see _Installation_ below).
 
+## Screenshots
+
+#### macOS
+
+![Screenshot](images/screenshot1.png)
+
+#### GNU/Linux
+
+![Screenshot](images/screenshot2.png)
+
+## TODO
+
+- [ ] Support the latest Pharo release.
+
 ## Installation
 
 1. Install and setup the Swift tools for your environment:
@@ -52,20 +66,6 @@ curl -X "POST" "http://127.0.0.1:8081/swift" \
 -H 'Content-Type: text/plain; charset=utf-8' \
 -d "print(\"Hello, World!\")"
 ```
-
-## Screenshots
-
-#### macOS
-
-![Screenshot](images/screenshot1.png)
-
-#### GNU/Linux
-
-![Screenshot](images/screenshot2.png)
-
-## TODO
-
-- [ ] Support latest Pharo
 
 ## Acknowledgements
 
