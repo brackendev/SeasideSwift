@@ -5,7 +5,7 @@ SeasideSwift
 
 Similar commercial implementations are used at [Replit](https://repl.it) and [OnlineSwiftPlayground.run](http://onlineswiftplayground.run).
 
-* [Pharo 8.0](https://www.pharo.org/) reference platform.
+* [Pharo 8](https://www.pharo.org/) reference platform.
 * Requires:
    * macOS (tested with 10.15.4) ***or*** GNU/Linux (tested with Ubuntu 14.04, 64 bit).
    * Swift tools (see _Installation_ below).
@@ -65,7 +65,7 @@ curl -X "POST" "http://127.0.0.1:8081/swift" \
 
 ## TODO
 
-- [ ] Support Pharo 9 (when stable)
+- [ ] Support latest Pharo
 
 ## Acknowledgements
 
